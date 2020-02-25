@@ -2,13 +2,11 @@ package com.kingsofts.androidtutorial;
 
 import java.io.Serializable;
 
-public class Student implements Serializable {
+public class Teacher implements Serializable {
     private String name;
     private int age;
 
-    private Teacher teacher;
-
-    public Student(String name, int age) {
+    public Teacher(String name, int age) {
         this.name = name;
         this.age = age;
     }
